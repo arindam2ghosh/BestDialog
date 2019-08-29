@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/ld_btn_confirm"
+        style="@style/TransparentTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="@android:string/ok"/>
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/ld_btn_negative"
+        style="@style/TransparentTheme"
+        android:visibility="gone"
+        android:layout_toLeftOf="@id/ld_btn_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@android:string/no"/>
+
+
+
+</RelativeLayout>
